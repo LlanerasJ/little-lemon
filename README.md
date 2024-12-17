@@ -1,2 +1,2 @@
-# Little-Lemon-Project
+# Little Lemon
 Capstone project for Meta Certification
