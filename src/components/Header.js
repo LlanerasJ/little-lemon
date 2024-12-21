@@ -1,7 +1,10 @@
+import "./Header.css";
+import logo from "../assets/logo.png";
+
 export default function Header() {
   return (
-    <nav>
-      <img src="" alt=""></img>
+    <nav className="nav">
+      <img src={logo} alt={logo}></img>
       <ul>
         <li>
           <a href="Home">Home</a>
@@ -13,7 +16,7 @@ export default function Header() {
           <a href="Menu">Menu</a>
         </li>
         <li>
-          <a href="Online Reservation">Online Reservation</a>
+          <a href="Reservations">Reservations</a>
         </li>
         <li>
           <a href="Order Online">Order Online</a>

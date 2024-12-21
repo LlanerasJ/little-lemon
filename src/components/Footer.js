@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <nav>
+    <nav className="nav">
       <ul>
         <li>
           <a href="Home">Home</a>
@@ -12,7 +12,7 @@ export default function Footer() {
           <a href="Menu">Menu</a>
         </li>
         <li>
-          <a href="Online Reservation">Online Reservation</a>
+          <a href="Reservations">Reservations</a>
         </li>
         <li>
           <a href="Order Online">Order Online</a>
