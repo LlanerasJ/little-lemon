@@ -1,0 +1,20 @@
+.booking-grid {
+  grid-column: 3 / 11;
+  grid-row: 2;
+  padding: 40px;
+  background-color: #edefee;
+}
+
+.booking-forms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+
+h2 {
+  font-weight: bold;
+  color: #f4c314;
+  font-family: "Markazi";
+  font-size: 48px;
+  text-align: left;
+}

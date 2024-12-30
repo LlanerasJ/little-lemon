@@ -1,0 +1,79 @@
+.about {
+  grid-column: 3 / 11;
+  grid-row: 2;
+  padding: 30px 20px 20px 20px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
+  grid-gap: 20px;
+}
+
+.about-left {
+  padding: 4rem 0 4rem 0;
+}
+
+.about-left h2 {
+  font-size: 45px;
+  color: #f4ce14;
+  font-weight: bold;
+  font-family: "Markazi";
+}
+
+.about-left h4 {
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+.chef-images {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+}
+
+.image-stack-top {
+  grid-column: 1 / span 8;
+  grid-row: 1;
+  padding-top: 20%;
+  z-index: 1;
+}
+
+.image-stack-bottom {
+  grid-column: 4 / -1;
+  grid-row: 1;
+}
+
+.chef-images img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-column: 1 / 13;
+    padding: 32px;
+  }
+  .about {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .chef-images {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    grid-column: 1 / 13;
+    padding: 16px;
+  }
+  .about {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .chef-images {
+    display: none;
+  }
+}

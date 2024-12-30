@@ -1,0 +1,24 @@
+.confirmation {
+  background-color: #ee9972;
+  border: 2px solid black;
+  border-radius: 16px;
+}
+
+.cancellation {
+  font-size: small;
+  margin-top: 10px;
+}
+.confirm-box {
+  margin: 30px;
+}
+.confirm-box h3 {
+  padding: 10px 5px 5px 5px;
+}
+
+.confirm-box p {
+  padding: 10px 5px 5px 5px;
+}
+
+.confirm-box span {
+  font-weight: bold;
+}

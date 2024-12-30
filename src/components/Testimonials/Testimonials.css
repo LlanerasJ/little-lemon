@@ -1,0 +1,42 @@
+.testimonials {
+  grid-column: 3 / 11;
+  grid-row: 2;
+  padding-bottom: 5rem;
+}
+
+.testimonials-background {
+  background-color: #495e57;
+}
+
+.testimonial-headline {
+  color: #f4ce14;
+  font-family: "Markazi";
+  font-size: 64px;
+  text-align: center;
+}
+.reviews-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.review {
+  background-color: #ffffff;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  height: 155px;
+  width: 225px;
+  margin: 30px;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.icon {
+  margin: 5px;
+}
