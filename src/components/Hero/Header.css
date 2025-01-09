@@ -29,6 +29,7 @@ header p {
 
 .header-left {
   padding: 2.5rem 0 2.5rem 0;
+  padding-left: 7.5rem;
 }
 
 .header-right {
@@ -36,6 +37,7 @@ header p {
   position: relative;
   justify-content: right;
   align-items: right;
+  padding-right: 7.5rem;
 }
 
 .header-button {

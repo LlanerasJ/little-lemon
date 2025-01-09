@@ -72,13 +72,13 @@ function Nav() {
             </li>
             <li>
               <Link
-                to="/"
+                to="/booking"
                 onClick={() => {
                   scrollTo("#header");
                 }}
                 className="nav-link"
               >
-                <p>Reserve a Table</p>{" "}
+                <p>Reserve a Table</p>
               </Link>
             </li>
             <li className="nav-link">
